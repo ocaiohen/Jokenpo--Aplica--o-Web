@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url(https://source.unsplash.com/1600x900/?landscape&_gl=1*js0gej*_ga*OTA3MzgyMjU3LjE2NzkzMzY3ODY.*_ga_37GXT4VGQK*MTY4NjUxNzMwMS4zOS4xLjE2ODY1MTkzNDYuMC4wLjA.);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    background-color: rgb(224, 238, 238);
+    border-radius: 20px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-botoes{
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.botao-escolha{
+    cursor: pointer;
+    font-size: 70px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+.botao-escolha:hover{
+    opacity: 0.8;
+}
+.botao-escolha:active{
+    opacity: 0.6;
+}
+
+#pedra{
+    background-color: rgb(165, 128, 42);
+}
+#papel{
+    background-color: rgb(93, 93, 237);
+}
+#tesoura{
+    background-color: rgb(255, 53, 46);
+}
+#texto-resultado{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.texto-pontuacao{
+    font-size: 18px;
+    font-weight: 700;
+}
+#texto-pontuacao-jogador span{
+    color: red;
+}
+#texto-pontuacao-maquina span{
+    color: blue;
+}

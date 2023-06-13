@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Jokenpô</title>
+</head>
+<body>
+    <main>
+        <h1>Jokenpô</h1>
+        <div id = "div-botoes">
+            <button id="pedra" onclick = "jogar(1)" class = "botao-escolha">&#128074;</button>
+            <button id="papel" onclick = "jogar(2)" class = "botao-escolha">&#129306;</button>
+            <button id="tesoura" onclick = "jogar(3)" class = "botao-escolha">&#9996;</button>
+        </div>
+        <p id = "texto-resultado">Jogue alguma rodada para ver o resultado!</p>
+
+        <p id = "texto-pontuacao-jogador" class = "texto-pontuacao">Sua pontuação: <span>0</span></p>
+        <p id = "texto-pontuacao-maquina" class = "texto-pontuacao">Pontuação da máquina: <span>0</span></p>
+    </main>
+</body>
+<script src = "./main.js"></script>
+</html>
